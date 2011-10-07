@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADLINQ", "ADLINQ\ADLINQ.csproj", "{D5BD8D8B-9425-453D-964E-5C2087E42116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADLINQ.Tests", "ADLINQ.Tests\ADLINQ.Tests.csproj", "{7154338B-495B-491F-8544-93EF7F6F8B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5BD8D8B-9425-453D-964E-5C2087E42116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BD8D8B-9425-453D-964E-5C2087E42116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BD8D8B-9425-453D-964E-5C2087E42116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BD8D8B-9425-453D-964E-5C2087E42116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7154338B-495B-491F-8544-93EF7F6F8B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7154338B-495B-491F-8544-93EF7F6F8B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7154338B-495B-491F-8544-93EF7F6F8B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7154338B-495B-491F-8544-93EF7F6F8B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
