@@ -19,7 +19,7 @@ namespace ADLINQ.Tests
         [Then("the result should be a list of all the users in the directory")]
         public void ThenTheResultShouldBeListOfAllUsers()
         {
-            //var result = GetResult<IEnumerable<>>()
+            var result = GetResult<IEnumerable<>>()
             ScenarioContext.Current.Pending();
         }
     }

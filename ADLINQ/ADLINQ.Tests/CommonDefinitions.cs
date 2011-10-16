@@ -14,7 +14,8 @@ namespace ADLINQ.Tests
         public void GivenIHaveAContext()
         {
             //todo: move connection settings to config file
-            Context = new SimpleDirectoryContext(new SimpleBindConnectionString("", "", ""));
+            var connectionString = new SimpleBindConnectionString("", "", "");
+            Context = new SimpleDirectoryContext(connectionString);
         }
     }
 }
