@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using ADLINQ.SimpleImpl;
+using NUnit.Framework;
 using TechTalk.SpecFlow;
 
 namespace ADLINQ.Tests
@@ -21,7 +22,8 @@ namespace ADLINQ.Tests
         [Then("the result should be a list of all the users in the directory")]
         public void ThenTheResultShouldBeListOfAllUsers()
         {
-           
+            Assert.That(_result, Is.Not.Null);
+            Assert.That(_result.Count(), Is.GreaterThan(0));
         }
     }
 }

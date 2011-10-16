@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(CodeContractsInstallDir)\MsBuild\v4.0\Microsoft.CodeContracts.targets" />
+
+	<Target Name="Build">
+	  <MSBuild Projects = "ADLINQ.sln" Properties="Configuration=Debug" />
+	</Target>
+</Project>
