@@ -1,7 +1,6 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace ADLINQ.Tests.UnitTests
+namespace ADLINQ.Tests.UnitTests.SimpleBindConnectionStringUnitTests
 {
     /// <summary>
     /// Tests on the SimpleBindConnectionString class
@@ -9,7 +8,7 @@ namespace ADLINQ.Tests.UnitTests
     [TestFixture]
     public class GivenThereIsAValidSimpleBindConnectionString : SpecificationBase
     {
-        private SimpleBindConnectionString _target;
+        private ADLINQ.SimpleBindConnectionString _target;
 
         public override void Given()
         {

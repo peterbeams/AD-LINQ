@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 
-namespace ADLINQ.Tests.UnitTests
+namespace ADLINQ.Tests.UnitTests.SimpleBindConnectionStringUnitTests
 {
     public class GivenThereIsNoUserValue : SpecificationBase
     {
